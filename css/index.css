@@ -15,16 +15,8 @@ use runholdy for headers and stuff
 regular text use alkes
 */
 @font-face {
-  font-family: "runholdy";
-  src: url("../fonts/Runholdy.ttf");
-}
-@font-face {
     font-family: "spirits";
     src: url(../fonts/spirits-soft.otf);
-}
-@font-face {
-    font-family: 'alkes';
-    src: url(../fonts/AlkesThin.TTF);
 }
 @font-face {
     font-family: 'nds';
@@ -63,6 +55,7 @@ body{
     grid-template-columns: min-content min-content min-content;
     justify-content: space-between;
     height: 80vh;
+    margin-bottom: 10vh;
 }   
 .content_box > * {
     background-color: #566850;
@@ -127,4 +120,13 @@ body{
 }
 .introduction > sup {
     font-size: 20px;
+}
+
+.item_box {
+    font-size: 24px;
+}
+
+.item_box > img{
+    height: 100px;
+    width: auto;
 }

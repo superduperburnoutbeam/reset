@@ -1,4 +1,4 @@
-.double_flex {
+.flex_row_template {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,4 +6,14 @@
     align-items: center;
     justify-content: space-evenly;
     height: fit-content;
+}
+
+.flex_column_template {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: fit-content;
 }
