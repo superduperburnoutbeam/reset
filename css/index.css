@@ -9,7 +9,7 @@ font: #212620
 background: #566850
 secondary: #F2F2F2
 highlight: #344028
-
+#D94343
 
 use runholdy for headers and stuff
 regular text use alkes
@@ -26,7 +26,10 @@ regular text use alkes
     font-family: 'alkes';
     src: url(../fonts/AlkesThin.TTF);
 }
-
+@font-face {
+    font-family: 'nds';
+    src: url(../fonts/nds_font.woff2);
+}
 
 
 
@@ -34,20 +37,26 @@ regular text use alkes
 /*declaration of the standards*/
 body{
     background-image: url(../images/background.jpg);
-    background-size: 200vw;
+    background-repeat: no-repeat;
+    background-position: middle top;
+    background-attachment: fixed;
+    background-size: 175% auto;
     font-size: 16px;
     font-family: "spirits";
 }
 
 .logo {
     margin-left: 20px;
-    font-family: 'alkes';
+    font-family: 'nds';
     font-size: 30px;
     color: #212620;
     background-color: #566850;
     width: fit-content;
-    border-radius: 5px;
     height: fit-content;
+    display: inline-block;
+    line-height: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .content_box {
@@ -59,7 +68,6 @@ body{
 .content_box > * {
     background-color: #566850;
     margin: 20px;
-    border-radius: 5px;
     padding: 20px;
 }
 
@@ -72,7 +80,7 @@ body{
     flex-direction: column;
 }
 .links > a {
-    color: #F2F2F2;
+    color: #C2C2C2;
     margin: 10px;
 }
 
@@ -98,3 +106,10 @@ body{
     align-items: center;
 }
 
+.lace_border{ 
+    border-style: solid;
+    border-width: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-image: url(../images/laceborder.png) 30 fill round;
+}
