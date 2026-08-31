@@ -122,6 +122,11 @@ body{
     font-size: 20px;
 }
 
+.items {
+    display: flex;
+    flex-direction: row;
+}
+
 .item_box {
     font-size: 24px;
 }
