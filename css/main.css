@@ -1,0 +1,11 @@
+.double_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    height: fit-content;
+    border: 1px solid #212620;
+}
