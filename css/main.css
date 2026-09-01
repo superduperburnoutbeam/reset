@@ -17,3 +17,8 @@
     justify-content: space-evenly;
     width: fit-content;
 }
+
+.reverse_image {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
