@@ -7,7 +7,7 @@ h3: 20
 color palette:
 font: #212620
 background: #566850
-secondary: #F2F2F2
+secondary: #a1a1a1
 highlight: #344028
 #D94343
 
@@ -22,7 +22,10 @@ regular text use alkes
     font-family: 'nds';
     src: url(../fonts/nds_font.woff2);
 }
-
+@font-face {
+    font-family: 'runholdy';
+    src: url(../fonts/Runholdy.ttf);
+}
 
 
 
@@ -37,17 +40,16 @@ body{
 
 .logo {
     margin-left: 20px;
-    font-family: 'nds';
+    font-family: 'runholdy';
     font-size: 36px;
     color: #212620;
-    background-color: #566850;
     width: fit-content;
     height: fit-content;
     display: inline-block;
     line-height: 0;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .content_box {
@@ -58,10 +60,8 @@ body{
     margin-bottom: 10vh;
 }   
 .content_box > * {
-    background-color: #566850;
     margin: 20px;
     padding: 10px;
-    border-radius: 5px;
 }
 
 .links {
@@ -73,7 +73,7 @@ body{
     font-family: "spirits";
 }
 .links > a {
-    color: #C2C2C2;
+    color: #a1a1a1;
     margin: 10px;
 }
 
@@ -101,13 +101,6 @@ body{
     font-family: 'nds';
 }
 
-.lace_border{ 
-    border-style: solid;
-    border-width: 10px;
-    padding: 20px;
-    margin: 20px;
-    border-image: url(../images/laceborder.png) 30 fill round;
-}
 
 .hobbies > h2{
     font-size: 30px;

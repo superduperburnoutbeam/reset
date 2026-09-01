@@ -22,3 +22,14 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+.border_lace{ 
+    border-style: solid;
+    border-width: 10px;
+    border-image: url(../images/borders/laceborder.png) 30 fill round;
+}
+
+.border_green{
+    background-color: #566850;
+    border-radius: 5px;
+}
