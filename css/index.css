@@ -67,10 +67,10 @@ body{
 .links {
     width: 100px;
     height: fit-content;
-    font-size: 24px;
+    font-size: 40px;
     display:flex;
     flex-direction: column;
-    font-family: "spirits";
+    font-family: "nds";
 }
 .links > a {
     color: #a1a1a1;
