@@ -10,6 +10,7 @@ background: #566850
 secondary: #a1a1a1
 highlight: #344028
 #D94343
+#FFD3F0
 
 use runholdy for headers and stuff
 regular text use alkes
@@ -56,7 +57,7 @@ body{
     display:grid;
     grid-template-columns: min-content min-content min-content;
     justify-content: space-between;
-    height: 80vh;
+    height: fit-content;
     margin-bottom: 10vh;
 }   
 .content_box > * {
@@ -98,6 +99,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     font-family: 'nds';
 }
 
