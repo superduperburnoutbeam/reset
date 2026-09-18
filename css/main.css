@@ -1,3 +1,36 @@
+/* standard font size of 16px
+h1: 30
+h2: 24
+h3: 20
+
+
+color palette:
+font: #212620
+background: #566850
+secondary: #a1a1a1
+highlight: #344028
+#D94343
+#FFD3F0
+
+use runholdy for headers and stuff
+regular text use alkes
+*/
+@font-face {
+    font-family: "spirits";
+    src: url(../fonts/spirits-soft.otf);
+}
+@font-face {
+    font-family: 'nds';
+    src: url(../fonts/nds_font.woff2);
+}
+@font-face {
+    font-family: 'runholdy';
+    src: url(../fonts/Runholdy.ttf);
+}
+
+
+
+
 .flex_row_template {
     display: flex;
     flex-direction: row;
